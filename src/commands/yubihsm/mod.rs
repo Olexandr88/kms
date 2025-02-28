@@ -19,7 +19,7 @@ pub enum YubihsmCommand {
     #[options(help = "detect all YubiHSM2 devices connected via USB")]
     Detect(DetectCommand),
 
-    #[options(help = "show help for the 'yubihsm' subcommand")]
+    #[options(help = "show help for the 'softsign' subcommand")]
     Help(HelpCommand),
 
     #[options(help = "key management subcommands")]
